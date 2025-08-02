@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find gnss_base)/launch/gnss_base.launch" >
+        <arg name="port_name" value="/dev/ttyUSB0" />
+    </include>
+</launch>
